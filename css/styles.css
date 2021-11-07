@@ -1,0 +1,15 @@
+header {
+  background-color: steelblue;
+  color: brown;
+}
+a:hover {
+  color: crimson;
+}
+a {
+  color: brown;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0%;
+  padding: 2%;
+}
