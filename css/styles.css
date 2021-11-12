@@ -127,3 +127,8 @@ a {
   margin-bottom: 0px;
   padding-bottom: 10px;
 }
+
+#copyright {
+  text-align: right;
+  color: aqua;
+}
