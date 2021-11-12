@@ -1,15 +1,136 @@
-header {
-  background-color: steelblue;
-  color: brown;
-}
-a:hover {
-  color: crimson;
-}
-a {
-  color: brown;
-}
 body {
   font-family: "Times New Roman", Times, serif;
   margin: 0%;
-  padding: 2%;
+  padding: 0%;
+  background-color: bisque;
+  font-size: 30px;
+}
+
+header {
+  background-color: steelblue;
+  color: brown;
+  width: 100%;
+  height: 3rem;
+  position: fixed;
+  top: 0px;
+  padding-right: 2rem;
+  text-align: center;
+}
+
+a:hover {
+  color: crimson;
+}
+
+a {
+  color: white;
+  margin: 2%;
+  text-decoration: none;
+  font-size: 28.8px;
+}
+
+.search {
+  height: 1.4rem;
+
+  border-radius: 1rem;
+}
+
+#bar {
+  padding-left: 1rem;
+}
+
+#aboutus {
+  color: white;
+  height: 550px;
+  margin-top: 3rem;
+  background-image: url(https://t3.ftcdn.net/jpg/03/35/51/06/360_F_335510693_HY7mLg3ARdLccKoXk3m66NLDpJRJh51p.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 37.44px;
+  padding: 200px 350px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+#aboutus h1,
+#aboutus h3 {
+  margin: 30px;
+  position: relative;
+  top: 50px;
+}
+
+#recepies,
+#recepiForm,
+#last {
+  padding: 50px;
+}
+
+.container {
+  background-image: url(https://media.gettyimages.com/photos/open-book-picture-id182174182?k=20&m=182174182&s=612x612&w=0&h=amtuhdGE_oT_dS2oaCVTrpj6s5BpjzQN24HJZXucxlY=);
+  background-size: cover;
+
+  height: 750px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 120px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.items {
+  font-family: "Lobster", cursive;
+  font-size: 19px;
+}
+
+#igredients {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 5;
+}
+
+#directions {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+#wellwith {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+
+#recepiForm input[type="text"],
+#recepiForm select {
+  position: absolute;
+  left: 300px;
+  height: 25px;
+  width: 200px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+#recepiForm input[type="button"] {
+  height: 33px;
+  border-radius: 5px;
+  position: absolute;
+  left: 410px;
+  font-size: 25px;
+}
+
+#last {
+  background-color: burlywood;
+  padding-top: 10px;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+#copyright {
+  position: relative;
+  left: 900px;
+
+  color: aqua;
 }
