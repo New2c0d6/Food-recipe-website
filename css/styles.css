@@ -129,8 +129,6 @@ a {
 }
 
 #copyright {
-  position: relative;
-  left: 900px;
-
+  text-align: right;
   color: aqua;
 }
